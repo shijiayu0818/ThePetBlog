@@ -1,0 +1,41 @@
+.personal-data{
+  .personal-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .personal-top{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    span{
+      margin-left: 20px;
+    }
+  }
+  .pet-data{
+    margin-top: 20px;
+  }
+
+  .personal-container{
+    h2{
+      text-align: center;
+    }
+    p{
+      text-indent:2em;
+    }
+  }
+  .personal-article-top{
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-between;
+    .look-more{
+      color: olive;
+      cursor: pointer;
+    }
+  }
+}

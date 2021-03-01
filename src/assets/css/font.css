@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'login header';
+  /*字体名称*/
+  src: url('../fonts/shaonian.ttf');
+  /*字体源文件*/
+}
+@font-face {
+  font-family: 'normal text';
+  /*字体名称*/
+  src: url('../fonts/liuyuan.ttf');
+  /*字体源文件*/
+}
+@font-face{
+  font-family: 'nav text';
+  /*字体名称*/
+  src: url('../fonts/hefeng.ttf');
+  /*字体源文件*/
+}

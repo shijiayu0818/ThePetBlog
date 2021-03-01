@@ -1,0 +1,36 @@
+@keyframes linearGradientMove {
+  100% {
+      background-position: 4px 0, -4px 100%, 0 -4px, 100% 4px;
+  }
+} 
+
+.pet-articles{
+  width: 60%;
+  margin: 0 auto;
+  .article-ul{
+    li{
+         position: relative;
+          cursor: pointer;
+          padding: 10px;
+          margin: 10px 0;
+          // outline: 2px solid transparent;
+          background: 
+              linear-gradient(90deg, #6e6653 50%, transparent 0) repeat-x,
+              linear-gradient(90deg, #6e6653 50%, transparent 0) repeat-x,
+              linear-gradient(0deg, #6e6653 50%, transparent 0) repeat-y,
+              linear-gradient(0deg, #6e6653 50%, transparent 0) repeat-y;
+          background-size: 4px 2px, 4px 2px, 2px 4px, 2px 4px;
+          background-position: 0 0, 0 100%, 0 0, 100% 0;
+          animation: linearGradientMove .3s infinite linear;
+  
+
+      
+    }
+  }
+  .pet-article-detail{
+    display: flex;
+    .article-desc{
+      margin-left: 5px;
+    }
+  }
+}

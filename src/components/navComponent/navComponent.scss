@@ -1,0 +1,30 @@
+.nav-component{
+  display: flex;
+
+  .logo-wrap{
+    padding: 0 50px;
+    font-size: 30px;
+  }
+
+  ul{
+    display: flex;
+    margin-left: 20px;
+    li{
+      padding: 20px;
+      font-size: 20px;
+      font-family: 'nav text';
+      writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/ 
+      writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/ 
+      cursor: pointer;
+      .active{
+        color: #915959!important;
+        font-weight: bolder;
+
+      }
+    }
+  }
+  .personal-nav{
+      margin-left: auto;
+  }
+
+}
