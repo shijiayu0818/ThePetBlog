@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "wangeditor": "^4.6.7"
   }
 }
