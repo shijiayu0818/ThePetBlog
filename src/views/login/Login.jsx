@@ -7,6 +7,7 @@ export default class Login extends Component {
 
   login = () => {
     console.log('登录')
+    this.props.history.push('/home/index')
   }
   render() {
     return (
